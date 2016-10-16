@@ -8,7 +8,7 @@
 
 ------
 
-因为之前的研究显示TBK1 和 K48-linked and K63-linked ubiquitination都有关，所以先验证了一下，发现
+因为之前的研究显示TBK1 在被病毒感染后 K48-linked and K63-linked ubiquitination都会发生，所以先验证了一下，发现
 
 > USP38 markedly increased K48-linked, but not K63-linked ubiquitination of TBK1
 
@@ -28,7 +28,7 @@
 
 考虑到USP38是DUB，于是他们开始思考USP38是如何通过去泛素化增加而不是减少TBK1 K48-linked ubiquitination
 
-他们利用USP38的突变体C545A, H857A实验，发现突变体是不能使TBK1降解的，所以他们就得出了USP38的去泛素化是降解TBK1的前提这一结论。
+他们利用USP38的突变体C545A, H857A实验，发现突变体是不能使TBK1降解的，所以他们就得出了USP38的去泛素化活性是降解TBK1的前提这一结论。
 
 ------
 
@@ -44,15 +44,21 @@
 
 ------
 
-那么K33-linked ubiquitin chains是如何被移去的？K48-linked ubiquitin chains又是如何被加上的呢？
-
-这就不得不提到一个实验技术 - mass spectrometry analysis(质谱分析)
+如何在论证生理条件下会发生这样的过程呢？这里用到了mass spectrometry analysis(质谱分析)
 
 >  we performed mass spectrometry analysis of ubiquitinated TBK1 from 293T cells or USP38-/-293T cells by VSV infection, using a similar strategy as previously described(2014)  
 
-并且，作为对比， the increased K33-linked ubiquitinated TBK1和 decreased K48-linked ubiquitinated TBK1 in USP38-/- cell在VSV infection过后会被mass spectrometry analysis发现
+结果发现
 
-所以有了USP38 is responsible for the cleavage of K33linked ubiquitin chains of TBK1
+> ubiquitinated TBK1 with K33 or K48 linkage was hardly detected without viral infection.
+
+并且，作为对比
+
+> after VSV infection, the increased K33-linked ubiquitinated TBK1 as well as decreased K48-linked ubiquitinated TBK1 in *USP38*−/− cells were readily detected by mass spectrometry analysis, compared to WT cells
+
+所以有了
+
+> USP38 is responsible for the cleavage of K33-linked ubiquitin chains of TBK1
 
 更深一步的研究是基于 confocal microscopic analysis ，他们发现
 
@@ -64,14 +70,15 @@
 
 ------
 
-至于接上K44-linked poly-ubiquitination of TBK1 at Lys670的问题(从summary之前的图里面我们可以看到不论是移去还是接上都是在同一位点进行的)，首先是先前研究
+至于如何证明接上K44-linked poly-ubiquitination of TBK1 at Lys670的问题(从summary之前的图里面我们可以看到不论是移去还是接上都是在同一位点进行的)，首先是先前研究
 
 > NLRP4 induced the K48-linked poly-ubiquitination of TBK1 at Lys670, leading to its proteasomal degration.
 
 而这次更深入的研究目的是介绍发现在同一位点进行移去和连接的实验原因
 
-> 1.neither USP38 nor TRIP can degrate TBK1(K670R) mutants
-> 2.TBK1 K670R mutant abrogates not only K48-linked ubiquitination but also K33-linked ubiquitination of TBK1
+> neither USP38 nor TRIP can degrate TBK1(K670R) mutants
+
+> TBK1 K670R mutant abrogates not only K48-linked ubiquitination but also K33-linked ubiquitination of TBK1
 
 (实验数据在Figures 5J-S4G 及Figures 5K and S4H)
 
@@ -83,7 +90,7 @@ K33-和K48-linked ubiquitin chains may conjugate to TBK1 at the same amino acid 
 
 > we pulled down the WT TBK1 and TBK(K670R) mutant and checked the ratio of K33 and K48 poly-ubiquitin chains in the immunoprecitates by mass spectrometry analysis
 
-发现没有K33和K48 poly-ubiquitin信号在TBK1(K670R) immunoprecipitates
+发现在TBK1(K670R) 免疫共沉淀中没有K33和K48 poly-ubiquitin信号
 
 所以！位点只有这一个
 
@@ -101,6 +108,5 @@ K33-和K48-linked ubiquitin chains may conjugate to TBK1 at the same amino acid 
 
 ```
 USP38是如何通过K33-linked ubiquitination和K48-linked ubiquitination来控制TBK1的？
-为什么要采用USP38两种突变体的实验进行对比？
-为了说明K38-linked ubiquitin chains被移去及K48-linked ubiquitin chains被接上是在同一位点进行的，为什么需要那么多组实验？
+多组实验是如何一步步证明K38-linked ubiquitin chains被移去及K48-linked ubiquitin chains被接上是在同一位点进行的？
 ```
