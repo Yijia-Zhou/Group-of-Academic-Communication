@@ -6,15 +6,15 @@ Summary中提到：
 
 那么，Result 1就是要确认USP38识别是一个重要的负调节I型干扰素的信号。
 
-为了确定去泛素化酶在抗病毒免疫性中的角色，我们做了这个实验：
+为了确定去泛素化酶在抗病毒免疫性中的角色，研究者运用生物信息学方法进行了数据分析，找到了一种去泛素化酶——USP38：
 
 > we screened 81 genes encoding deubiquitinases（DUBs）and identified USP38 as a negative regulator of type I IFN signaling.
 
-并发现：
+运算得来终觉浅，还是得做点实验
 
-> USP38 potently inhibited the activation of IFN-b by treatments of intracellular (IC) low-molecular-weight (LMW) poly(I:C) (a ligand for RIG-I), IC high-molecular-weight (HMW) poly(I:C) (a ligand for MDA5), poly(dA:dT), or vesicular stomatitis virus (VSV) (Figure 1A).
+> USP38 potently inhibited the activation of IFN-b by treatments of ...(lots of pathogen-associated molecular patterns) (Figure 1A).
 
-也就是说，USP38可以强效抑制IFN-b的活性。
+也就是说，USP38可以强效抑制IFN-b的激活。
 
 因为IFN-b激活时，需要合作激活 IRF3 和 NF-kB，于是我们想检验USP38是否直接影响IRF3信号。
 
@@ -24,7 +24,7 @@ Summary中提到：
 
 > We assessed phosphorylation of IRF3 in 293T cells, expressing USP38 together with RIG-I(N), MDA5, MAVS, STING-cGAS, or TRIF.
 
-并发现 USP38 抑制 IRF3 所有这些先天免疫受体和转接器诱导的活化。
+并发现 USP38 抑制所有这些先天免疫受体和接头蛋白诱导的 IRF3 活化。
 
 进一步的 qPCR 分析表明，
 
@@ -40,20 +40,18 @@ Summary中提到：
 
 > USP38 knockdown could enhance the IC poly(I:C)-, poly(dA:dT)-, or VSV-EGFP-induced ISRE activation (Figure 1C).
 
-与这一结果相一致，我们发现 USP38 击倒显著增强磷酸化 IRF3 在这些治疗方法 (图1D)。
+与这一结果相一致，我们发现敲除 USP38 显著增强 IRF3 的磷酸化 (Figure 1D)。
 
 为了证实这些发现，
 
 > we knocked down USP38 in THP-1 cells, 293T cells, A549 cells, or PBMCs, and we found that USP38 knockdown significantly increased the IFN-a4 and IFN-b expression, as well as IFN-b secretion induced by VSV-EGFP or HSV-1 infection (Figures 1E–1G and S1D–S1F).
 
-进一步我们表明在这些细胞中的 USP38 击倒使他们抵抗 VSV EGFP 感染（图1H、 1I，S1G和S1H）。
+进一步我们表明在这些细胞中的 USP38 敲除使他们抵抗 VSV EGFP 感染（Figure 1H,  1I, S1G, S1H）。
 
 这些结果共同表明，USP38 负调节I型干扰素信号以及在人体各种细胞类型中的抗病毒免疫。
 
 思考题：
 
 ```
-为什么说 USP38 是一个负调节I型干扰素的信号？
-USP38 在细胞的抗病毒免疫中起什么作用？
+这里用了哪几个验证 USP38 负调节I型干扰素信号？
 ```
-
