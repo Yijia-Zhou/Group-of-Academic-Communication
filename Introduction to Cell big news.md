@@ -32,4 +32,4 @@ T细胞和B细胞能识别大自然中存在着的无数种抗原并对它们做
 
 ![Table S1. The ProtoRAG copies in lancelet genomes](http://upload-images.jianshu.io/upload_images/3072722-d2fc515e1002cb18.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-( o(*≧▽≦)ツ┻┻ 哪里善良了啊喂！）
+( o(*≧▽≦)ツ┻┻ 哪里闪亮了啊喂！）
